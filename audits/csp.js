@@ -4,6 +4,7 @@ const Audit = require('lighthouse').Audit;
 class CspAudit extends Audit {
   static get meta() {
     return {
+      id: 'security',
       category: 'Security',
       name: 'csp',
       description: 'Has a Content Security Policy (CSP)',
