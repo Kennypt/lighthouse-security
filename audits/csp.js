@@ -5,6 +5,7 @@ class CspAudit extends Audit {
   static get meta() {
     return {
       id: 'security',
+      title: 'Security',
       category: 'Security',
       name: 'csp',
       description: 'Has a Content Security Policy (CSP)',
